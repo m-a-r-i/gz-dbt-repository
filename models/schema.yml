@@ -9,7 +9,6 @@ sources:
         freshness: 
           warn_after: {count: 90, period: day}
         loaded_at_field: "CAST (date_date AS TIMESTAMP)"
-            period: day
         identifier: raw_gz_sales
         description: sales of greenweez/ we have one row per products_id found in each orders_id.
         columns:
